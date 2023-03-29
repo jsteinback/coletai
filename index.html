@@ -18,14 +18,12 @@
 </head>
 
 <body>
-
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-
     <!--CABEÇALHO -->
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
         <span class="mdl-layout-title">
-          Coleta&iacute;
+          COLETA&Iacute;
         </span>
         <div class="mdl-layout-spacer"></div>
         <div
@@ -39,59 +37,88 @@
         </div>
         <nav class="mdl-navigation">
           <a href="#" class="mdl-navigation__link mdl-typography--text-uppercase menu">Cadastrar-se</a>
-          <a href="#" class="mdl-navigation__link mdl-typography--text-uppercase menu-destaque">Login</a>
+          <a href="login.html" class="mdl-navigation__link mdl-typography--text-uppercase menu-destaque">Login</a>
         </nav>
       </div>
     </header>
 
-    <!--INTRODUCAO-->
-    <div class="mdl-layout__content">
-      <a name="top"></a>
-      <div class="mdl-typography--text-center">
-        <h5 class="font-color mdl-typography--font-regular">coletaí é um site </br> frase mais longa com os objetivos
-        </h5>
-      </div>
-
-      <div class="mdl-cell mdl-cell--12-col">
-        <h6 class="font-color mdl-typography--font-light">Fique por dentro dos &uacute;ltimos pontos de coleta
-          cadastrados:</h6>
-
-        <!--CARDS-->
-        <div class="container">
-          <div class="mdl-card mdl-shadow--2dp mdl-card--horizontal">
-            <div class="mdl-card__media">
-              <img src="images/ponto-foto-exemplo.jpg">
-            </div>
-            <div class="mdl-card__title">
-              <h5 class="font-color-destaque mdl-card__title-text">Ponto de Coleta 1</h5>
-            </div>
-            <div class="mdl-card__menu">
-              <span class="material-symbols-outlined" id="star1">grade</span>
-              <span class="material-symbols-outlined" id="star2">grade</span>
-              <span class="material-symbols-outlined" id="star3">grade</span>
-              <span class="material-symbols-outlined" id="star4">grade</span>
-              <span class="material-symbols-outlined" id="star5">grade</span>
-            </div>
-            <div class="mdl-card__supporting-text">
-              Lorem ipsum dolor sit amet. Ex tempora voluptatem aut molestias vitae sed nobis omnis sed quia rerum
-              et cumque velit sit asperiores recusandae eos exercitationem enim!
-            </div>
-            <div class="mdl-card__supporting-text">
-              Cidade - UF
-            </div>
-            <div class="mdl-card__actions">
-              <a class="mdl-button mdl-js-button font-color mdl-typography--font-light" href="">
-                Mais informações
-                <i class="material-icons">chevron_right</i>
-              </a>
-            </div>
+    <main class="mdl-grid mdl-layout__content">
+      <div class="mdl-cell mdl-cell--6-col">
+        <div class="mdl-card mdl-card-homepage mdl-shadow--2dp">
+          <div class="mdl-card__media">
+            <img src="images/ponto-foto-exemplo.jpg">
+          </div>
+          <div class="mdl-card__title">
+            <h5 class="font-color-destaque mdl-card__title-text">Ponto de Coleta 1</h5>
+          </div>
+          <div class="mdl-card__menu">
+            <span class="material-symbols-outlined" id="star1">grade</span>
+            <span class="material-symbols-outlined" id="star2">grade</span>
+            <span class="material-symbols-outlined" id="star3">grade</span>
+            <span class="material-symbols-outlined" id="star4">grade</span>
+            <span class="material-symbols-outlined" id="star5">grade</span>
+          </div>
+          <div class="mdl-card__supporting-text">
+            Lorem ipsum dolor sit amet. Ex tempora voluptatem aut molestias vitae sed nobis omnis sed quia rerum
+            et cumque velit sit asperiores recusandae eos exercitationem enim!
+          </div>
+          <div class="mdl-card__supporting-text">
+            Cidade - UF
+          </div>
+          <div class="mdl-card__actions">
+            <a class="mdl-button mdl-js-button font-color mdl-typography--font-light" href="">
+              Mais informações
+              <i class="material-icons">chevron_right</i>
+            </a>
           </div>
         </div>
-        <!--CARDS-->
-
       </div>
-    </div>
+      <div class="mdl-cell mdl-cell--6-col">
+        <div class="mdl-card mdl-card-homepage mdl-shadow--2dp">
+          <div class="mdl-card__media">
+            <img src="images/ponto-foto-exemplo.jpg">
+          </div>
+          <div class="mdl-card__title">
+            <h5 class="font-color-destaque mdl-card__title-text">Ponto de Coleta 1</h5>
+          </div>
+          <div class="mdl-card__menu">
+            <span class="material-symbols-outlined" id="star1">grade</span>
+            <span class="material-symbols-outlined" id="star2">grade</span>
+            <span class="material-symbols-outlined" id="star3">grade</span>
+            <span class="material-symbols-outlined" id="star4">grade</span>
+            <span class="material-symbols-outlined" id="star5">grade</span>
+          </div>
+          <div class="mdl-card__supporting-text">
+            Lorem ipsum dolor sit amet. Ex tempora voluptatem aut molestias vitae sed nobis omnis sed quia rerum
+            et cumque velit sit asperiores recusandae eos exercitationem enim!
+          </div>
+          <div class="mdl-card__supporting-text">
+            Cidade - UF
+          </div>
+          <div class="mdl-card__actions">
+            <a class="mdl-button mdl-js-button font-color mdl-typography--font-light" href="">
+              Mais informações
+              <i class="material-icons">chevron_right</i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
 
+    <!--RODAPÉ-->
+    <footer class="mdl-mini-footer">
+      <div class="mdl-mini-footer__left-section">
+        <div class="mdl-logo">COLETAÍ</div>
+      </div>
+      <div class="mdl-mini-footer__right-section">
+        <ul class="mdl-mini-footer__link-list mdl-typography--text-uppercase">
+          <li><a href="#">Cadastrar-se</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </footer>
+
+  </div>
 
 </body>
 

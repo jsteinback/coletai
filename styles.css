@@ -11,7 +11,7 @@
     font-weight: 500;
 }
 
-.mdl-layout__content {
+.mdl-layout {
     background-color: aliceblue;
 }
 
@@ -23,27 +23,11 @@
     color: #009688
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.mdl-link {
+    font-size: 15px;
 }
 
-.mdl-card--horizontal {
-    flex-direction: column;
-    padding-left: 200px;
-    width: 80%;
-    background-color: white;
-}
-
-.mdl-card__media {
-    left: 0;
-    position: absolute;
-    width: 200px;
-}
-
-.mdl-card__supporting-text {
-    flex: 1 1 auto;
-    width: auto;
+.mdl-card-homepage {
+    width: 800px;
+    height: 250px;
 }
