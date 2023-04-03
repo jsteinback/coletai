@@ -1,7 +1,7 @@
 .menu {
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
     line-height: 1;
-    color: white;
+    color: white !important;
 }
 
 .menu-destaque {
@@ -9,6 +9,10 @@
     line-height: 1;
     color: white;
     font-weight: 500;
+}
+
+.imagem-logo {
+    width: 170px;
 }
 
 .mdl-layout {
@@ -39,7 +43,13 @@
 }
 
 .coletai-cards {
-    padding-top: 80px;
+    padding: 80px;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.coletai-cards {
     max-width: 95%;
     margin-left: auto;
     margin-right: auto;
@@ -48,7 +58,7 @@
 .coletai-card-container .mdl-card__media {
     overflow: hidden;
     background: transparent;
-  }
+}
 
 .card-link {
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
@@ -59,7 +69,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding-bottom: 50px;
 }
 
 .coletai-botao-grande {
@@ -67,4 +77,32 @@
     height: 50px;
     min-width: initial;
     color: white !important;
+}
+
+.coletai-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+}
+
+.coletai-botao-excluir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f44235 !important;
+    color: white !important;
+}
+
+.espacamento {
+    margin-right: 200px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.mdl-mini-footer {
+    background-color: #009688;
+    color: white;
 }
