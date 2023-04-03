@@ -1,7 +1,7 @@
 .menu {
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
     line-height: 1;
-    color: white;
+    color: white !important;
 }
 
 .menu-destaque {
@@ -86,10 +86,23 @@
     color: white !important;
 }
 
+.coletai-botao-excluir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f44235 !important;
+    color: white !important;
+}
+
 .espacamento {
     margin-right: 200px;
 }
 
 .link {
     text-decoration: none;
+}
+
+.mdl-mini-footer {
+    background-color: #009688;
+    color: white;
 }
