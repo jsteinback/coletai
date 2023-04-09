@@ -35,6 +35,14 @@
     font-size: large;
 }
 
+.font-nome-ponto {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    color: rgb(0, 150, 136);
+    font-weight: bold;
+    font-size: large;
+    margin-right: 20px;
+}
+
 .coletai-slogan {
     font-size: 26px;
     margin: 0 16px;
@@ -102,7 +110,36 @@
     text-decoration: none;
 }
 
-.mdl-mini-footer {
-    background-color: #009688;
-    color: white;
+.imagem-detalhes {
+    width: 550px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.imagem {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-desabilitado {
+    color: rgb(158, 158, 158);
+}
+
+.icon-classificacao {
+    font-size: 30px;
+}
+
+.bt-share {
+    color: white !important;
+}
+
+.mdl-radio__label {
+    margin-right: 40px;
 }
