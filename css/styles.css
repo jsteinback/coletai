@@ -21,7 +21,7 @@
 
 .font-color {
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-    color: grey;
+    color: dimgray;
 }
 
 .font-color-destaque {
@@ -129,6 +129,12 @@
     font-size: 30px;
 }
 
+.icon-localizacao {
+    font-size: 30px;
+    color: #FF5722;
+    text-align: center;
+}
+
 .bt-share {
     color: white !important;
 }
@@ -142,6 +148,27 @@
     align-items: center;
 }
 
-.campos-cadastro {
+.campo-cadastro-grande {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
     background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    color: dimgray;
+}
+
+.campo-cadastro {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    color: dimgray;
+}
+
+.campo-cadastro-titulo {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+    color: dimgray;
+    justify-content: right;
+    text-align: right;
 }
