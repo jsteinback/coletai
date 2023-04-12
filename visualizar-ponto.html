@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COLETA&Iacute;</title>
+    <title>COLETAÍ - Visualizar ponto de coleta</title>
 
     <!--ESTILOS-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -27,9 +27,9 @@
 
         <div class="mdl-layout__header mdl-layout__header--waterfall">
             <div class="mdl-layout__header-row">
-                <span class="mdl-layout-title">
-                    <img src="images/branco.png" alt="Coletai" class="imagem-logo">
-                </span>
+                <a href="home.html" class="logo-link">
+                    <img src="images/branco.png" alt="Coletai" class="logo-imagem">
+                </a>
                 <div class="mdl-layout-spacer"></div>
                 <div
                     class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
@@ -41,6 +41,8 @@
                     </div>
                 </div>
                 <nav class="mdl-navigation">
+                    <a href="todos-pontos.html" class="mdl-navigation__link mdl-typography--text-uppercase">Pontos de
+                        Coleta</a>
                     <a href="meus-pontos.html" class="mdl-navigation__link mdl-typography--text-uppercase">Meus Pontos
                         de Coleta</a>
                     <a href="edita-usuario.html" class="mdl-navigation__link mdl-typography--text-uppercase">Meu
@@ -88,7 +90,8 @@
                     </br>
                     </br>
                     <a class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent bt-share"
-                        href="https://api.whatsapp.com/send?text=Verifique%20este%20ponto%20de%20coleta!%20https://master.d2azmyt2ai8a09.amplifyapp.com/" target="_blank">
+                        href="https://api.whatsapp.com/send?text=Verifique%20este%20ponto%20de%20coleta!%20https://master.d2azmyt2ai8a09.amplifyapp.com/"
+                        target="_blank">
                         <i class="material-icons">share</i> Compartilhe!
                     </a>
                 </div>
@@ -98,24 +101,27 @@
                 <!--Descrição-->
                 <div class="mdl-cell mdl-cell--1-col"></div>
                 <div class="mdl-cell mdl-cell--10-col campo-cadastro-grande">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sodales leo et arcu
-                        pretium pretium.
-                        Fusce lacinia quam eu iaculis egestas. Curabitur arcu dolor, hendrerit in fringilla at, finibus
-                        at quam.
-                        Nunc varius fermentum vestibulum. Fusce et tempus nunc. Sed vitae ex aliquet nisl scelerisque
-                        hendrerit eu et nibh.
-                        Donec urna magna, sollicitudin at lorem sit amet, consectetur dignissim magna. Sed fringilla
-                        faucibus vehicula.
-                        Pellentesque nec ipsum eleifend, tincidunt odio et, tempus turpis.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sodales leo et arcu
+                    pretium pretium.
+                    Fusce lacinia quam eu iaculis egestas. Curabitur arcu dolor, hendrerit in fringilla at, finibus
+                    at quam.
+                    Nunc varius fermentum vestibulum. Fusce et tempus nunc. Sed vitae ex aliquet nisl scelerisque
+                    hendrerit eu et nibh.
+                    Donec urna magna, sollicitudin at lorem sit amet, consectetur dignissim magna. Sed fringilla
+                    faucibus vehicula.
+                    Pellentesque nec ipsum eleifend, tincidunt odio et, tempus turpis.
                 </div>
                 <div class="mdl-cell mdl-cell--1-col"></div>
 
                 <!--Endereço e Botão para Google Maps-->
                 <div class="mdl-cell mdl-cell--1-col"></div>
-                <div class="mdl-cell mdl-cell--1-col campo-cadastro-titulo mdl-typography--text-uppercase">Endereço:</div>
+                <div class="mdl-cell mdl-cell--1-col campo-cadastro-titulo mdl-typography--text-uppercase">Endereço:
+                </div>
                 <div class="mdl-cell mdl-cell--8-col campo-cadastro">Rua Antônio da Veiga, 1000 - Itoupava Seca</div>
                 <div class="mdl-cell mdl-cell--1-col">
-                    <button onclick="window.open('https://www.google.com/maps?q=Rua+Antônio+da+Veiga,+1000+-+Itoupava+Seca+-+Blumenau+-+SC','_blank')" class= "mdl-button mdl-js-button mdl-button--icon" target="_blank">
+                    <button
+                        onclick="window.open('https://www.google.com/maps?q=Rua+Antônio+da+Veiga,+1000+-+Itoupava+Seca+-+Blumenau+-+SC','_blank')"
+                        class="mdl-button mdl-js-button mdl-button--icon" target="_blank">
                         <i class="material-icons icon-localizacao">location_on</i>
                     </button>
                 </div>
@@ -129,19 +135,25 @@
                 <div class="mdl-cell mdl-cell--1-col campo-cadastro">SC</div>
                 <div class="mdl-cell mdl-cell--1-col campo-cadastro-titulo mdl-typography--text-uppercase">CEP:</div>
                 <div class="mdl-cell mdl-cell--1-col campo-cadastro">88888-888</div>
-                <div class="mdl-cell mdl-cell--1-col campo-cadastro-titulo mdl-typography--text-uppercase">Telefone:</div>
+                <div class="mdl-cell mdl-cell--1-col campo-cadastro-titulo mdl-typography--text-uppercase">Telefone:
+                </div>
                 <div class="mdl-cell mdl-cell--2-col campo-cadastro">(47) 99999-9999</div>
                 <div class="mdl-cell mdl-cell--1-col"></div>
 
                 <!--Comentários-->
-                <div class="mdl-cell mdl-cell--1-col">Teste</div>
-                <div class="mdl-cell mdl-cell--10-col">Teste</div>
-                <div class="mdl-cell mdl-cell--1-col">Teste</div>
+                <div class="mdl-cell mdl-cell--1-col"></div>
+                <div class="mdl-cell mdl-cell--10-col">Comentários:</div>
+                <div class="mdl-cell mdl-cell--1-col"></div>
             </div> <!--mdl-grid-->
 
             <footer class="mdl-mini-footer">
                 <div class="mdl-mini-footer__left-section">
-                    <div class="mdl-logo">COLETAÍ</div>
+                    <div class="mdl-logo mdl-typography--text-uppercase">Coletaí</div>
+                </div>
+                <div class="mdl-mini-footer__right-section">
+                    <ul class="mdl-mini-footer__link-list">
+                        <li><a href="#">Sobre o Coletaí</a></li>
+                    </ul>
                 </div>
             </footer>
 
