@@ -11,7 +11,11 @@
     font-weight: 500;
 }
 
-.imagem-logo {
+.logo-link {
+    display: inline-block;
+ }
+
+.logo-imagem {
     width: 170px;
 }
 
@@ -32,7 +36,7 @@
 .font-titulo-secao {
     font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
     color: dimgray;
-    font-size: large;
+    font-size: medium;
 }
 
 .font-nome-ponto {

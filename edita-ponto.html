@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COLETA&Iacute;</title>
+    <title>COLETAÍ - Atualizar Ponto de Coleta</title>
 
     <!--ESTILOS-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -27,13 +27,26 @@
 
         <div class="mdl-layout__header mdl-layout__header--waterfall">
             <div class="mdl-layout__header-row">
-                <span class="mdl-layout-title">
-                    <img src="images/branco.png" alt="Coletai" class="imagem-logo">
-                </span>
+                <a href="home.html" class="logo-link">
+                    <img src="images/branco.png" alt="Coletai" class="logo-imagem">
+                </a>
                 <div class="mdl-layout-spacer"></div>
                 <nav class="mdl-navigation">
-                    <a href="meus-pontos.html" class="mdl-navigation__link mdl-typography--text-uppercase">Meus Pontos de Coleta</a>
-                    <a href="edita-usuario.html" class="mdl-navigation__link mdl-typography--text-uppercase">Meu Perfil</a>
+                    <div
+                        class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+                        <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+                            <i class="material-icons">search</i>
+                        </label>
+                        <div class="mdl-textfield__expandable-holder">
+                            <input class="mdl-textfield__input" type="text" id="search-field">
+                        </div>
+                    </div>
+                    <a href="todos-pontos.html" class="mdl-navigation__link mdl-typography--text-uppercase">Pontos de
+                        Coleta</a>
+                    <a href="meus-pontos.html" class="mdl-navigation__link mdl-typography--text-uppercase">Meus Pontos
+                        de Coleta</a>
+                    <a href="edita-usuario.html" class="mdl-navigation__link mdl-typography--text-uppercase">Meu
+                        Perfil</a>
                     <a href="index.html" class="mdl-navigation__link mdl-typography--text-uppercase">Sair</a>
                 </nav>
             </div>
@@ -46,6 +59,8 @@
                 <div class="mdl-cell mdl-cell--3-col"></div>
 
                 <div class="mdl-cell mdl-cell--6-col">
+                    <h6 class="font-titulo-secao">Atualize as informações do seu ponto de coleta:
+                    </h6>
                     <!-- Formulário de cadastro -->
                     <form action="#" class="mdl-grid">
 
@@ -161,11 +176,14 @@
 
             </div> <!--mdl-grid-->
 
-
-
             <footer class="mdl-mini-footer">
                 <div class="mdl-mini-footer__left-section">
-                    <div class="mdl-logo">COLETAÍ</div>
+                    <div class="mdl-logo mdl-typography--text-uppercase">Coletaí</div>
+                </div>
+                <div class="mdl-mini-footer__right-section">
+                    <ul class="mdl-mini-footer__link-list">
+                        <li><a href="#">Sobre o Coletaí</a></li>
+                    </ul>
                 </div>
             </footer>
 
