@@ -46,7 +46,7 @@
                     <h6 class="font-titulo-secao">Cadastre-se:
                     </h6>
                     <!-- Formulário de cadastro -->
-                    <form action="#" class="mdl-grid">
+                    <form action="#" class="mdl-grid" id="form-cadastro-usuario">
 
                         <!-- Seleciona tipo de cadastro -->
                         <div class="mdl-cell mdl-cell--12-col mdl-textfield mdl-js-textfield">
@@ -120,7 +120,7 @@
                         <!-- Campo de CEP -->
                         <div
                             class="mdl-cell mdl-cell--12-col mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                            <input class="mdl-textfield__input" type="text" id="cep">
+                            <input class="mdl-textfield__input" type="text" id="cep" pattern="[0-9]*">
                             <label class="mdl-textfield__label" for="cep">CEP</label>
                             <span class="mdl-textfield__error">Apenas números</span>
                         </div>
@@ -163,10 +163,16 @@
                         <!-- Botão de cadastro -->
                         <div class="mdl-cell mdl-cell--12-col mdl-grid">
                             <div class="mdl-layout-spacer"></div>
-                            <button type="submit"
-                                class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent coletai-botao">
+                            <button id="bt-cadastro-usuario" type="submit"
+                                class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent coletai-botao"
+                                onclick="document.getElementById('bt-cadastro-usuario').addEventListener('click', cadastrarUsuario)">
                                 Cadastrar
                             </button>
+                        </div>
+
+                        <div id="snackbar-cadatro-usuario" class="mdl-js-snackbar mdl-snackbar">
+                            <div class="mdl-snackbar__text"></div>
+                            <button class="mdl-snackbar__action" type="button"></button>
                         </div>
 
                     </form>

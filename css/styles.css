@@ -125,6 +125,15 @@
     padding: 0;
 }
 
+.imagem-login {
+    background: white;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .icon-desabilitado {
     color: rgb(158, 158, 158);
 }
@@ -133,10 +142,13 @@
     font-size: 30px;
 }
 
-.icon-localizacao {
+.bt-localizacao {
     font-size: 30px;
-    color: #FF5722;
-    text-align: center;
+}
+
+.icon-localizacao {
+    width: 30px;
+    height: 30px;
 }
 
 .bt-share {
